@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 6.25%;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+container {
+  display: flex;
+  justify-content: center;
+}
+i {
+  margin: auto;
+  font-size: 35rem;
+  background-color: white;
+  color: crimson;
+  cursor: pointer;
+}
+elements {
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  width: 80vw;
+  height: 300rem;
+  display: flex;
+  margin: auto;
+}
+elements::-webkit-scrollbar {
+  visibility: hidden;
+}
+div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 200rem;
+  min-width: 31%;
+  font-size: 30rem;
+  color: whitesmoke;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  margin: auto 15rem;
+  background-color: crimson;
+}
