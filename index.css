@@ -10,7 +10,7 @@ body {
 }
 container {
   display: flex;
-  flex-direction:column;
+  justify-content:center;
 }
 i {
   margin: auto;
@@ -26,7 +26,6 @@ elements {
   height: 500px;
   display: flex;
   flex-direction:column;
-  margin: auto;
 }
 elements::-webkit-scrollbar {
   visibility: hidden;
@@ -36,12 +35,11 @@ div {
   text-align: center;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  min-height: 500px;
   min-width: 100%;
   font-size: 30rem;
   color: whitesmoke;
   scroll-snap-align: start;
   scroll-snap-stop: always;
-  margin: 0rem 0rem;
   background-color: crimson;
 }
