@@ -20,10 +20,10 @@ i {
   cursor: pointer;
 }
 elements {
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
   width: 80vw;
-  height: 300rem;
+  height: 600rem;
   display: flex;
   margin: auto;
 }
@@ -35,12 +35,12 @@ div {
   text-align: center;
   justify-content: center;
   align-items: center;
-  height: 200rem;
+  height: 100℅;
   min-width: 100%;
   font-size: 30rem;
   color: whitesmoke;
   scroll-snap-align: start;
   scroll-snap-stop: always;
-  margin: auto 0rem;
+  margin: 0rem 0rem;
   background-color: crimson;
 }
