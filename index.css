@@ -25,6 +25,7 @@ elements {
   width: 80vw;
   height: 600rem;
   display: flex;
+  flex-direction:column;
   margin: auto;
 }
 elements::-webkit-scrollbar {
